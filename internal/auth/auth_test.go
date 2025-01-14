@@ -9,7 +9,7 @@ import (
 func TestGetAPIKey(t *testing.T) {
 
 	// arrange
-	valueWant := "0"
+	valueWant := ""
 	
 	// act
 	value, _ := GetAPIKey(http.Header{})
